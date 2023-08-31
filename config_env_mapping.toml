@@ -1,0 +1,34 @@
+[redis]
+host = "REDIS_HOST"
+port = "REDIS_PORT"
+db = "REDIS_DB"
+password = "REDIS_PASSWORD"
+
+logger.name = "REDIS_LOGGER_NAME"
+logger.level = "REDIS_LOGGER_LEVEL"
+logger.stream = "REDIS_LOGGER_STREAM"
+logger.file_path = "REDIS_LOGGER_FILE_PATH"
+logger.format = "REDIS_LOGGER_FORMAT"
+
+[db]
+host = "DB_HOST"
+port = "DB_PORT"
+user = "DB_USER"
+password = "DB_PASSWORD"
+database = "DB_DATABASE"
+
+logger.name = "DB_LOGGER_NAME"
+logger.level = "DB_LOGGER_LEVEL"
+logger.stream = "DB_LOGGER_STREAM"
+logger.file_path = "DB_LOGGER_FILE_PATH"
+logger.format = "DB_LOGGER_FORMAT"
+
+# [extra sections if any]
+# ...
+
+[logger]
+name = "LOGGER_NAME"
+level = "LOGGER_LEVEL"
+stream = "LOGGER_STREAM"
+file_path = "LOGGER_FILE_PATH"
+format = "LOGGER_FORMAT"

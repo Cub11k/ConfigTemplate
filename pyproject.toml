@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ConfigTemplate"
+version = "0.0.1"
+authors = [
+  { name="Konstantin Ostashenko", email="ostashenkokd@gmail.com" },
+]
+description = "Config template for python projects"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "adaptix>=3.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+"Homepage" = "https://github.com/Cub11k/ConfigTemplate"
+
+[tool.setuptools]
+packages = ["myapp"]

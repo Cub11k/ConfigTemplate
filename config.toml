@@ -1,0 +1,34 @@
+[redis]
+host = "localhost"
+port = 6379
+db = 0
+password = "password"
+
+logger.name = "RedisLogger"
+logger.level = "INFO"
+logger.stream = "stdout"
+logger.file_path = "logs/redis.log"
+logger.format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[db]
+host = "localhost"
+port = 5432
+user = "user"
+password = "password"
+database = "database"
+
+logger.name = "DBLogger"
+logger.level = "INFO"
+logger.stream = "stdout"
+logger.file_path = "logs/db.log"
+logger.format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# [extra sections if any]
+# ...
+
+[logger]
+name = "MyAppLogger"
+level = "INFO"
+stream = "stdout"
+file_path = "logs/myapp.log"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
